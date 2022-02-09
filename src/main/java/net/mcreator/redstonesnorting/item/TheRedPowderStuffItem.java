@@ -17,7 +17,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.util.ITooltipFlag;
 
-import net.mcreator.redstonesnorting.procedures.TheRedPowderStuffSNORTEDProcedure;
+import net.mcreator.redstonesnorting.procedures.TheRedPowderStuffFoodEatenProcedure;
 import net.mcreator.redstonesnorting.itemgroup.SnortableRedstoneItemGroup;
 import net.mcreator.redstonesnorting.RedstonesnortingModElements;
 
@@ -71,7 +71,7 @@ public class TheRedPowderStuffItem extends RedstonesnortingModElements.ModElemen
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				TheRedPowderStuffSNORTEDProcedure.executeProcedure($_dependencies);
+				TheRedPowderStuffFoodEatenProcedure.executeProcedure($_dependencies);
 			}
 			if (itemstack.isEmpty()) {
 				return retval;
