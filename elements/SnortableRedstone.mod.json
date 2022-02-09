@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Snortable Redstone",
+    "icon": {
+      "value": "CUSTOM:TheRedPowderStuff"
+    },
+    "showSearch": false
+  }
+}

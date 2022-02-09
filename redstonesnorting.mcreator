@@ -1,10 +1,60 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "TheRedPowderStuffSNORTED",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_red_powder_stuff_snorted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheRedPowderStuff",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_red_powder_stuff"
+    },
+    {
+      "name": "SnortableRedstone",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snortable_redstone"
+    },
+    {
+      "name": "MadeTheRedPowder",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "made_the_red_powder"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.redstonesnorting.the_red_powder_stuff": "The Red Powder Stuff",
+      "advancements.made_the_red_powder.descr": "Made the good stuff.",
+      "itemGroup.tabsnortable_redstone": "Snortable Redstone",
+      "advancements.made_the_red_powder.title": "Not Very Legal..."
+    }
   },
   "foldersRoot": {
     "name": "~",

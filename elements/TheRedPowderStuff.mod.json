@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "redstonedustsnorttttv1",
+    "customModelName": "Normal",
+    "name": "The Red Powder Stuff",
+    "rarity": "EPIC",
+    "specialInfo": [
+      "SNNORRRRTTT"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SnortableRedstone"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 50,
+    "saturation": 50.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "TheRedPowderStuffSNORTED"
+    }
+  }
+}
