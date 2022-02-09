@@ -18,7 +18,7 @@
     "saturation": 1.0,
     "eatingSpeed": 32,
     "resultItem": {
-      "value": "CUSTOM:SnortedRedPowder"
+      "value": ""
     },
     "forDogs": true,
     "isAlwaysEdible": true,

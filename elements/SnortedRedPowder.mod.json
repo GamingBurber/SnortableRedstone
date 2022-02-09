@@ -24,7 +24,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "Used as an Icon"
+    ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

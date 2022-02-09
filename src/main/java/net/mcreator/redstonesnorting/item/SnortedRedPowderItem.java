@@ -5,13 +5,19 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.redstonesnorting.itemgroup.SnortableRedstoneItemGroup;
 import net.mcreator.redstonesnorting.RedstonesnortingModElements;
+
+import java.util.List;
 
 @RedstonesnortingModElements.ModElement.Tag
 public class SnortedRedPowderItem extends RedstonesnortingModElements.ModElement {
@@ -50,6 +56,12 @@ public class SnortedRedPowderItem extends RedstonesnortingModElements.ModElement
 		@OnlyIn(Dist.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("Used as an Icon"));
 		}
 	}
 }
