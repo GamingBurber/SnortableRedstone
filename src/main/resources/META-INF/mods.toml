@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Academic Free License v3.0"
+license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="redstonesnorting"
 version="1.0.0"
-displayName="RedstoneSnorting"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayName="SnortRedstone"
+credits="https://github.com/GamingBurber/SnortableRedstone"
 displayURL="https://mcreator.net"
-authors="gggam, MCreator"
+authors="GamingBurber"
+description='''
+SNORT REDSTONE!!!
+'''
 
 [[dependencies.redstonesnorting]]
     modId="minecraft"

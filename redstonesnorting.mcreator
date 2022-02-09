@@ -118,11 +118,12 @@
   },
   "workspaceSettings": {
     "modid": "redstonesnorting",
-    "modName": "RedstoneSnorting",
+    "modName": "SnortRedstone",
     "version": "1.0.0",
-    "author": "gggam, MCreator",
+    "description": "SNORT REDSTONE!!!",
+    "author": "GamingBurber",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -130,6 +131,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "https://github.com/GamingBurber/SnortableRedstone",
     "modElementsPackage": "net.mcreator.redstonesnorting",
     "lockBaseModFiles": false
   },
