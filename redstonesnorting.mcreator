@@ -71,15 +71,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crafting_da_good_stuff"
-    },
-    {
-      "name": "BrewingForGoodStuff",
-      "type": "recipe",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "brewing_for_good_stuff"
     }
   ],
   "variable_elements": [],
