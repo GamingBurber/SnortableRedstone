@@ -5,7 +5,7 @@ license="GNU General Public License version 3 (GPLv3)"
 [[mods]]
 modId="redstonesnorting"
 version="1.0.0"
-displayName="SnortRedstone"
+displayName="RedstoneSnorting"
 credits="https://github.com/GamingBurber/SnortableRedstone"
 displayURL="https://mcreator.net"
 authors="GamingBurber"
