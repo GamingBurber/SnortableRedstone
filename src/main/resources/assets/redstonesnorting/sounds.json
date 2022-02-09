@@ -1,1 +1,12 @@
-{}
+{
+  "redstonesnortsfx": {
+    "category": "neutral",
+    "subtitle": "subtitles.redstonesnortsfx",
+    "sounds": [
+      {
+        "name": "redstonesnorting:60383__uwesoundboiz__coke-snort-002",
+        "stream": false
+      }
+    ]
+  }
+}

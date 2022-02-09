@@ -14,8 +14,8 @@
       "value": "CUSTOM:SnortableRedstone"
     },
     "stackSize": 64,
-    "nutritionalValue": 50,
-    "saturation": 3.0,
+    "nutritionalValue": 4,
+    "saturation": 1.0,
     "eatingSpeed": 32,
     "resultItem": {
       "value": "CUSTOM:SnortedRedPowder"

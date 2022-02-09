@@ -40,7 +40,7 @@ public class TheRedPowderStuffItem extends RedstonesnortingModElements.ModElemen
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(SnortableRedstoneItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC)
-					.food((new Food.Builder()).hunger(50).saturation(3f).setAlwaysEdible().meat().build()));
+					.food((new Food.Builder()).hunger(4).saturation(1f).setAlwaysEdible().meat().build()));
 			setRegistryName("the_red_powder_stuff");
 		}
 
