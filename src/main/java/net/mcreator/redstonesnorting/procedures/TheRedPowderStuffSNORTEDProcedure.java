@@ -18,12 +18,12 @@ public class TheRedPowderStuffSNORTEDProcedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		entity.attackEntityFrom(DamageSource.GENERIC, (float) 1);
+		entity.attackEntityFrom(DamageSource.GENERIC, (float) 4);
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 60, (int) 5, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 600, (int) 5, (false), (false)));
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 3, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 600, (int) 3, (false), (false)));
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HEALTH_BOOST, (int) 60, (int) 20, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HEALTH_BOOST, (int) 600, (int) 3, (false), (false)));
 	}
 }
