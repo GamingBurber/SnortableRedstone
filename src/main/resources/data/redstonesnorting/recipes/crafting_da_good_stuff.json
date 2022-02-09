@@ -1,0 +1,16 @@
+{
+  "group": "redstonesnorting",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "redstonesnorting:the_red_powder_stuff",
+    "count": 1
+  }
+}

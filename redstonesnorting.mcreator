@@ -44,6 +44,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "made_the_red_powder"
+    },
+    {
+      "name": "SnortedRedPowder",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snorted_red_powder"
+    },
+    {
+      "name": "Hallucinations",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hallucinations"
+    },
+    {
+      "name": "CraftingDaGoodStuff",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_da_good_stuff"
+    },
+    {
+      "name": "BrewingForGoodStuff",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brewing_for_good_stuff"
     }
   ],
   "variable_elements": [],
@@ -52,8 +88,11 @@
     "en_us": {
       "item.redstonesnorting.the_red_powder_stuff": "The Red Powder Stuff",
       "advancements.made_the_red_powder.descr": "Made the good stuff.",
+      "item.redstonesnorting.snorted_red_powder": "Snorted Red Powder",
       "itemGroup.tabsnortable_redstone": "Snortable Redstone",
-      "advancements.made_the_red_powder.title": "Not Very Legal..."
+      "advancements.hallucinations.title": "Hallucinations",
+      "advancements.made_the_red_powder.title": "Not Very Legal...",
+      "advancements.hallucinations.descr": "Did the good stuff"
     }
   },
   "foldersRoot": {

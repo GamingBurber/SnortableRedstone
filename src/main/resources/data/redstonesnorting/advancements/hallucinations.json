@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "redstonesnorting:snorted_red_powder"
+    },
+    "title": {
+      "translate": "advancements.hallucinations.title"
+    },
+    "description": {
+      "translate": "advancements.hallucinations.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hallucinations": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "redstonesnorting:the_red_powder_stuff"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "redstonesnorting:made_the_red_powder"
+}

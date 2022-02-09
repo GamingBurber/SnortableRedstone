@@ -1,6 +1,9 @@
 {
   "item.redstonesnorting.the_red_powder_stuff": "The Red Powder Stuff",
   "advancements.made_the_red_powder.descr": "Made the good stuff.",
+  "item.redstonesnorting.snorted_red_powder": "Snorted Red Powder",
   "itemGroup.tabsnortable_redstone": "Snortable Redstone",
-  "advancements.made_the_red_powder.title": "Not Very Legal..."
+  "advancements.hallucinations.title": "Hallucinations",
+  "advancements.made_the_red_powder.title": "Not Very Legal...",
+  "advancements.hallucinations.descr": "Did the good stuff"
 }
