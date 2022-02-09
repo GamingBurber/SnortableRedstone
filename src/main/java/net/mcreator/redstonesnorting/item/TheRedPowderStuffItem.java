@@ -13,6 +13,7 @@ import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.util.ITooltipFlag;
 
@@ -39,7 +40,7 @@ public class TheRedPowderStuffItem extends RedstonesnortingModElements.ModElemen
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(SnortableRedstoneItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC)
-					.food((new Food.Builder()).hunger(50).saturation(50f).setAlwaysEdible().build()));
+					.food((new Food.Builder()).hunger(50).saturation(3f).setAlwaysEdible().meat().build()));
 			setRegistryName("the_red_powder_stuff");
 		}
 
@@ -62,7 +63,8 @@ public class TheRedPowderStuffItem extends RedstonesnortingModElements.ModElemen
 
 		@Override
 		public ItemStack onItemUseFinish(ItemStack itemstack, World world, LivingEntity entity) {
-			ItemStack retval = super.onItemUseFinish(itemstack, world, entity);
+			ItemStack retval = new ItemStack(SnortedRedPowderItem.block);
+			super.onItemUseFinish(itemstack, world, entity);
 			double x = entity.getPosX();
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
@@ -71,7 +73,16 @@ public class TheRedPowderStuffItem extends RedstonesnortingModElements.ModElemen
 				$_dependencies.put("entity", entity);
 				TheRedPowderStuffSNORTEDProcedure.executeProcedure($_dependencies);
 			}
-			return retval;
+			if (itemstack.isEmpty()) {
+				return retval;
+			} else {
+				if (entity instanceof PlayerEntity) {
+					PlayerEntity player = (PlayerEntity) entity;
+					if (!player.isCreative() && !player.inventory.addItemStackToInventory(retval))
+						player.dropItem(retval, false);
+				}
+				return itemstack;
+			}
 		}
 	}
 }

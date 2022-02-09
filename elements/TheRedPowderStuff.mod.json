@@ -15,12 +15,12 @@
     },
     "stackSize": 64,
     "nutritionalValue": 50,
-    "saturation": 50.0,
+    "saturation": 3.0,
     "eatingSpeed": 32,
     "resultItem": {
-      "value": ""
+      "value": "CUSTOM:SnortedRedPowder"
     },
-    "forDogs": false,
+    "forDogs": true,
     "isAlwaysEdible": true,
     "animation": "eat",
     "hasGlow": true,
